@@ -1,0 +1,97 @@
+@import url(' href="https://fonts.googleapis.com/css2?family=Teko:wght@200&display=swap" rel="stylesheet"');
+html, body{
+   height: 100%;
+   width: 100%;
+   margin:0;
+   padding: 0;
+   font-family: 'Teko', sans-serif;
+}
+
+header{
+position: sticky;
+top: 0;
+background: white;
+height: 66px;
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 26px;
+}
+
+.left img{
+  width: 127px;
+  height: 65px;
+}
+
+.container{
+  /* max-width: 80vw; */
+  /* padding: 0 10vw; */
+  margin: 13px 0;
+}
+
+.nav{
+  font-size: 12px;
+}
+nav ul li{
+  list-style: none;
+  padding: 0 12px;
+}
+
+.section1{
+  background: #f2f2f2;
+  height: 122vh;
+}
+
+.search{
+  width: 36vw;
+  padding: 5px 12px;
+  border: 0.5px solid #c4c2c2;
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  transition: 10s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* Medal Worthy Brands To Bag Tag */
+.tag1{
+  text-indent: 2rem;
+  text-align: left;
+  font-weight: lighter;
+}
+

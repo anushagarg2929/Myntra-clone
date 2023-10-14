@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping for Women, Men, Kids & Lifestyle - Myntra Clone</title>
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="util.css"/>
+   
+</head>
+<body>
+    <header class="container">
+        <nav class="flex space-around"> 
+            <div class = "left flex">
+                <img src="myntra.avif" >
+                <ul class="flex items-center justify-center uppercase semibold">
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Kids</li>
+                    <li>Home & Living</li> 
+                    <li>Beauty</li>
+                    <li>Studio</li>
+                </ul>
+            </div>
+            <div class="right flex items-center">
+                <input placeholder="Search for products, brands and more" class="desktop-searchBar search" value="" data-rectid="904"/>
+                <div class="profile mx-2">Profile</div>
+                <div class="wishlist mx-2">Wishlist</div>
+                <div class="bag mx-2">Bag</div>
+            </div>
+        </nav>
+    </header>
+    <!-- <div class="slider1">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id = "radio1">
+            <input type="radio" name="radio-btn" id = "radio2">
+            <input type="radio" name="radio-btn" id = "radio3">
+            <input type="radio" name="radio-btn" id = "radio4">
+
+            <div class="slide">
+                <img src="s1.png" alt="">
+                <img src="s2.png" alt="">
+                <img src="s3.png" alt="">
+                <img src="s4.png" alt="">
+            </div>
+            automatic navigation start  -->
+            <!--<div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+             navigation end  -->
+              <!-- manual navigation start  -->
+            <!-- <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+             </div>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="image-container">
+            <img src="s1.png" id="content1" class="active">
+            <img src="s2.png" id="content2">
+            <img src="s3.png" id="content3">
+            <img src="s4.png" id="content4">
+        </div>
+        <div class="dot-container">
+            <button type="radio" onclick = "dot(1)"></button>
+            <button onclick = "dot(2)"></button>
+            <button onclick = "dot(3)"></button>
+            <button onclick = "dot(4)"></button>
+            <input type="radio" name="radio-btn" id = "radio1" onclick="radio-btn">
+            <input type="radio" name="radio-btn" id = "radio2">
+            <input type="radio" name="radio-btn" id = "radio3">
+            <input type="radio" name="radio-btn" id = "radio4">
+         </div> -->
+         <!-- <div class="slider">
+            <div class="list">
+                <div class="item">
+                    <img src="s1.png" >
+                </div>
+                <div class="item">
+                    <img src="s2.png" >
+                </div>
+                <div class="item">
+                    <img src="s3.png" >
+                </div>
+                <div class="item">
+                    <img src="s4.png" >
+                </div>
+        </div>
+        <ul class="dots">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li></ul>
+         </div> -->
+
+         <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="s1.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="s2.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="s3.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="s4.png" style="width:100%">
+              </div>
+
+            <div class="mySlides fade">
+                <img src="s5.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="s6.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="s7.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="s8.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="s9.png" style="width:100%">
+              </div>
+
+              <div class="mySlides fade">
+                <img src="s10.png" style="width:100%">
+              </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentDiv(1)"></span> 
+              <span class="dot" onclick="currentDiv(2)"></span> 
+              <span class="dot" onclick="currentDiv(3)"></span> 
+              <span class="dot" onclick="currentDiv(4)"></span> 
+              <span class="dot" onclick="currentDiv(5)"></span> 
+              <span class="dot" onclick="currentDiv(6)"></span> 
+              <span class="dot" onclick="currentDiv(7)"></span> 
+              <span class="dot" onclick="currentDiv(8)"></span> 
+              <span class="dot" onclick="currentDiv(9)"></span> 
+              <span class="dot" onclick="currentDiv(10)"></span> 
+            </div>
+    </div>
+    <!-- Medal Worthy Brands To Bag -->
+    <div class="tag1">
+      <br><br>
+      <h1><strong>MEDAL WORTHY BRANDS TO BAG</strong></h1>
+      <br><br>
+    </div>
+    <!-- slider 2 -->
+     <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="l1.png" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="l2.png" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="l3.png" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="l4.png" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div> 
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
